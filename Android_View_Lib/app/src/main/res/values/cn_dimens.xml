@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="cn_horizontal_margin">16dp</dimen>
+    <dimen name="cn_vertical_margin">12dp</dimen>
+    
+    <dimen name="cn_vertical_margin_half">6dp</dimen>
+    <dimen name="cn_horizontal_margin_half">8dp</dimen>
+    
+    <dimen name="cn_vertical_margin_item">4dp</dimen>
+    <dimen name="cn_horizontal_margin_item">16dp</dimen>
+    
+    <dimen name="cn_btn_vertical_margin">4dp</dimen>
+    <dimen name="cn_btn_horizontal_margin">8dp</dimen>
+
+</resources>

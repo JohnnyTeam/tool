@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/cn_circle_middle_c_8_full" android:state_selected="true"/>
+    
+    <item android:drawable="@drawable/cn_circle_middle_left_c_8"></item>
+
+</selector>

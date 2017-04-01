@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 透明度颜色值
+    	00%-00 05%-0D 10%-1A 15%-26 20%-33 25%-40 30%-4D 35%-59 40%-66 45%-73 50%-80
+    	55%-8C 60%-99 65%-A6 70%-B3 75%-BF 80%-CC 85%-D9 90%-E6 95%-F2 100%-FF -->
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="grey">#E6E6E6</color>
+
+    <color name="white_80">#CCFFFFFF</color>
+    
+    <color name="common_edit_border_color">#000000</color>
+    
+    <color name="cn_bg_default_color">#FFF4F4F4</color>
+    
+    <color name="text_color_222">#222222</color>
+    <color name="text_color_333">#333333</color>
+    <color name="text_color_666">#666666</color>
+    <color name="text_color_777">#777777</color>
+    <color name="text_color_808080">#808080</color>
+    <color name="text_color_888">#888888</color>
+    <color name="text_color_999">#999999</color>
+
+    <color name="btn_dark_color">#888888</color>
+    
+    <color name="transparent">#00000000</color>
+
+    <color name="theme_color">#15A0F5</color>
+    <color name="theme_90_color">#E615A0F5</color>
+    <color name="theme_80_color">#CC15A0F5</color>
+    <color name="theme_70_color">#B315A0F5</color>
+    <color name="theme_60_color">#9915A0F5</color>
+    <color name="theme_50_color">#8015A0F5</color>
+    <color name="theme_near_color">#5C9DF5</color>
+
+    <color name="red">#FF0000</color>  <!-- 红色 -->
+    <color name="blue">#5C9DF5</color> <!-- 蓝色 -->
+    <color name="cyan">#00FF00</color> <!-- 青色 -->
+
+    <color name="stroke">#808080</color>
+
+    <color name="solid">#B8B8B8</color>
+
+    <color name="cover_color">#66000000</color>
+
+    <color name="bar_blue">#5b9ff5</color>
+    
+    <color name="cover_color_light">#40000000</color>
+
+</resources>

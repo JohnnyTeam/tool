@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Layout_Standard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/cn_bg_default_color</item>
+    </style>
+
+    <style name="Layout_View_Standard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="Layout_Card_Standard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingTop">@dimen/cn_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/cn_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/cn_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/cn_horizontal_margin</item>
+    </style>
+    
+    <style name="Line_Horizontal_Standard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#DEDEDE</item>
+    </style>
+    
+    <style name="Line_Vertical_Standard">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">#DEDEDE</item>
+    </style>
+
+    <style name="Layout_Card_Standard_">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingTop">@dimen/cn_vertical_margin_half</item>
+        <item name="android:paddingBottom">@dimen/cn_vertical_margin_half</item>
+        <item name="android:paddingLeft">@dimen/cn_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/cn_horizontal_margin</item>
+    </style>
+
+    <style name="TextView_Standard">
+        <item name="android:textColor">@color/text_color_222</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Button_Standard_Short">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/btn_selector_theme</item>
+        <item name="android:paddingTop">@dimen/cn_btn_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/cn_btn_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/cn_btn_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/cn_btn_horizontal_margin</item>
+    </style>
+
+    <style name="Button_Standard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/cn_btn_selector_theme_full</item>
+    </style>
+
+    <style name="EditText_Standard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:hint">请输入关键字</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:maxLength">100</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/text_color_333</item>
+        <item name="android:textColorHint">@color/text_color_999</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="ListView_Standard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:cacheColorHint">@color/transparent</item>
+        <item name="android:divider">@color/transparent</item>
+        <item name="android:listSelector">@color/transparent</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+</resources>

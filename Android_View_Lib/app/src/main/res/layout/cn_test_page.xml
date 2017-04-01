@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.vortex.common.view.CnActionBar
+            android:id="@+id/base_view_cab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:background="@color/transparent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/base_ll_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:id="@+id/base_cover_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:orientation="vertical"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_net_work_error"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/cover_color_light"
+                android:gravity="center"
+                android:paddingBottom="60dp"
+                android:visibility="gone"
+                android:text="网络错误！"
+                android:textColor="@color/white" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/cover_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cover_color_light"
+        android:visibility="gone" />
+
+    <com.vortex.common.view.RefreshDialogView
+        android:id="@+id/base_view_rdv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</FrameLayout>

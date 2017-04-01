@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <declare-styleable name="CnCloudLayout">
+        <attr name="minRowNum" format="integer" />
+        <attr name="padding" format="dimension" />
+        <!-- 固定每行控件数量 -->
+        <attr name="isFixedRowNum" format="boolean" />
+        <!-- 控件长宽固定 -->
+        <attr name="isFixedLayout" format="boolean" />
+        <attr name="gravity">
+            <flag name="left" value="0" />
+            <flag name="right" value="1" />
+            <flag name="center" value="2" />
+            <flag name="blance_middle" value="3" />
+            <flag name="blance" value="4" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="CnPunchCardView">
+        <attr name="shadeWidth" format="dimension" />
+        <attr name="timeSize" format="dimension" />
+        <attr name="timeMargin" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textMargin" format="dimension" />
+        <attr name="shadeColor" format="color" />
+        <attr name="bgColorUnable" format="color" />
+        <attr name="bgColorCommon" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="timeColor" format="color" />
+        <attr name="intervalTime" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CnRefreshView">
+        <attr name="mainColor" format="color" />
+        <attr name="changingColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CnRatingBar" tools:ignore="ResourceName">
+        <attr name="starImageWidth" format="dimension"/>
+        <attr name="starImageHeight" format="dimension"/>
+        <attr name="starImagePadding" format="dimension"/>
+        <attr name="starCount" format="integer"/>
+        <attr name="starNum" format="float"/>
+        <attr name="starEmpty" format="reference"/>
+        <attr name="starFill" format="reference"/>
+        <attr name="starHalf" format="reference"/>
+        <attr name="clickable" format="boolean"/>
+        <attr name="halfStart" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="PhotoLayout">
+        <attr name="showModel" format="boolean"/>
+        <attr name="maxImgNum" format="integer"/>
+        <attr name="plPadding" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="ProgressBarView">
+        <attr name="pbv_bg_view" format="color"/>
+        <attr name="pbv_bg_progress" format="color"/>
+        <attr name="pbv_prompt_show" format="boolean"/>
+    </declare-styleable>
+
+</resources>

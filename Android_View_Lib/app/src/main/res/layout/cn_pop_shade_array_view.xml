@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cn_lv_pop_list"
+    style="@style/ListView_Standard"
+    android:background="#E0E0E0"
+    android:dividerHeight="1dp"
+    android:paddingBottom="2dp"
+    android:paddingLeft="1.5dp"
+    android:paddingRight="2dp" />
